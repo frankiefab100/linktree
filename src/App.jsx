@@ -49,11 +49,11 @@ function App() {
         <img src={Github} alt="github" />
       </div>
 
-      <footer className="footer">
+      <div className="footer">
         <img src={Zuri} alt="zuri logo" />
         <p>HNG Internship 9 Frontend Track </p>
         <img src={I4G} alt="Ingressive4Good" />
-      </footer>
+      </div>
     </div>
   );
 }
