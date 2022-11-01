@@ -1,14 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Img from "./assets/img.jpg";
 import Slack from "./assets/slack.svg";
 import Github from "./assets/Github.svg";
 import Zuri from "./assets/Zuri.Internship_Logo.svg";
 import I4G from "./assets/I4G.svg";
+import ShareMobile from "./assets/_Avatar share button1.svg";
+// import ShareDesktop from "./assets/_Avatar share button2.svg";
 
 function App() {
   return (
     <div className="App">
       <header className="img-wrapper">
+        <img src={ShareMobile} className="share" alt="share" />
         <img id="profile__img" src={Img} alt="profile-img" />
         <h1 id="username">Franklin Ohaegbulam</h1>
       </header>
