@@ -2,9 +2,7 @@
 <h4 align="center">Personalize your social profile</h4>
 
 ## Live Preview
-<a href="https://" target="blank">
-</a>
-
+https://linktree-social.netlify.app/
 
 ## Built with
 
